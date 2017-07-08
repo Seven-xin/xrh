@@ -1,0 +1,351 @@
+/* 重置样式 */
+
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+input,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+textarea,
+article,
+aside,
+audio,
+canvas,
+figure,
+footer,
+header,
+mark,
+menu,
+nav,
+section,
+time,
+video {
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal
+}
+
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+blockquote {
+	display: block;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+img {
+	border: 0 none;
+	vertical-align: top;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+strong,
+em,
+i {
+	font-style: normal;
+	font-weight: normal;
+}
+
+ins {
+	text-decoration: underline;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+mark {
+	background: none;
+}
+
+input::-ms-clear {
+	display: none !important;
+}
+
+body {
+	font: 12px/1.5 \5FAE\8F6F\96C5\9ED1, \5B8B\4F53, "Hiragino Sans GB", STHeiti, "WenQuanYi Micro Hei", "Droid Sans Fallback", SimSun, sans-serif;
+	background: #fcfcfa;
+	color: #a2a2a2;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font: 12px/1.5 \5FAE\8F6F\96C5\9ED1, \5B8B\4F53, "Hiragino Sans GB", STHeiti, "WenQuanYi Micro Hei", "Droid Sans Fallback", SimSun, sans-serif;
+	background: #fcfcfa;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+
+/* header */
+
+.header {
+	width: 100%;
+	height: 200px;
+	background: #fcfcfa;
+}
+
+.wrap {
+	width: 1200px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+
+/*header 子元素 第一层 开始*/
+
+.header_nav .header_nav_first {
+	position: relative;
+	width: 100%;
+}
+
+.header_nav .header_nav_first img {
+	position: absolute;
+	top: 25px;
+	left: 48px;
+}
+
+.header_nav .header_nav_first .ilj {
+	position: absolute;
+	top: 44px;
+	right: 36px;
+	font-size: 24px;
+	font-family: "微软雅黑";
+	color: #191919;
+}
+
+
+/*header_nav_first 结束*/
+
+
+/*第二层开始*/
+
+.header_nav .header_nav_scond {
+	position: absolute;
+	top: 95px;
+	left: 490px;
+	width: 1024px;
+	height: 28px;
+}
+
+.header_nav .header_nav_scond p {
+	display: inline-block;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #565656;
+}
+
+.header_nav_scond img {
+	position: absolute;
+	top: 6px;
+	right: 10px;
+}
+
+.header_nav .header_nav_scond input {
+	float: right;
+	position: relative;
+	width: 220px;
+	height: 22px;
+}
+
+.header_nav .header_nav_scond .search_kuang {
+	position: absolute;
+	top: 7px;
+	right: 0px;
+	display: block;
+	width: 24px;
+	height: 17px;
+	background: url(../img/sj_05.jpg) no-repeat;
+}
+
+
+/*header_nav_scond 结束*/
+
+
+/*header_nav_thrid 开始*/
+
+.header_nav .header_nav_thrid {
+	position: absolute;
+	top: 152px;
+	width: 1200px;
+}
+
+.header_nav_thrid li {
+	float: left;
+	height: 14px;
+	text-align: center;
+}
+
+.header_nav_thrid li:first-child a {
+	color: #c09f82;
+	border-right: 1px solid #d0d0d0;
+}
+
+.header_nav_thrid li:last-child a {
+	border-right: none;
+}
+
+.header_nav_thrid a {
+	display: block;
+	width: 132px;
+	color: #191919;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	border-right: 1px solid #d0d0d0;
+}
+
+.header_nav_thrid a:hover {
+	color: #c09f82;
+}
+
+.header_nav_thrid li .hnt {
+	color: #f8ceba;
+}
+
+
+/* foot */
+
+.footer {
+	width: 100%;
+	height: 240px;
+	margin-top: 25px;
+	background: #DDBC9A;
+	display: inline-block;
+}
+
+.footer .footer_content {
+	border-bottom: 1px solid #fff;
+}
+
+.footer .footer_content .footer_left {
+	position: relative;
+	float: left;
+	width: 675px;
+	height: 200px;
+}
+
+.footer .footer_content .fc {
+	position: absolute;
+	top: 36px;
+	right: 0;
+	width: 485px;
+	height: 115px;
+	border-right: 1px solid #fff;
+}
+
+.footer .footer_content .fc li {
+	float: left;
+	margin: 0 35px 0 0;
+}
+
+.footer .footer_content .fc li a {
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #fff;
+}
+
+.footer .footer_content .footer_left p {
+	position: absolute;
+	bottom: 90px;
+	right: 56px;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+
+.footer .footer_content .footer-right {
+	float: left;
+}
+
+.footer .footer_right li {
+	float: left;
+	margin: 20px 40px 0 40px;
+}
+
+.footer .footer_right li:last-child {
+	margin-right: 0;
+}
+
+.footer .footer_right li:first-child {
+	margin-right: 0;
+}
+
+.footer .footer_right li:first-child p {
+	margin-top: 56px;
+	color: #fff;
+	font-size: 24px;
+}
+
+.footer .footerest {
+	clear: both;
+	width: 600px;
+	height: 40px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	color: #fff;
+}
